@@ -2,6 +2,8 @@
 
 import * as React from 'react'
 import Head from 'next/head'
+import Header from 'modules/Header'
+import Footer from 'modules/Footer'
 
 type LayoutProps = {
   title?: string
@@ -14,9 +16,9 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <h1>Header</h1>
+    <Header />
     {children}
-    <h1>Footer</h1>
+    <Footer />
   </div>
 )
 export default Layout
