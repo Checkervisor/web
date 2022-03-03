@@ -1,11 +1,32 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
-type Props = {}
-
-const index = (props: Props) => {
+const index = () => {
   return (
-    <div>
-      <h1 className="text-2xl text-green-500">Header</h1>
+    <div className="w-full">
+      <div className="flex flex-row gap-x-44 items-center text-xl">
+        <Image
+          alt="checkervisor-logo"
+          src="/assets/checkervisor-logo.png"
+          width={198}
+          height={198}
+        />
+        <div className="flex flex-row gap-x-16">
+          <Link href="https://stackoverflow.com/" passHref={true}>
+            <span className="cursor-pointer">About Us</span>
+          </Link>
+          <Link href="https://stackoverflow.com/" passHref={true}>
+            <span className="cursor-pointer">Our Services</span>
+          </Link>
+          <Link href="https://stackoverflow.com/" passHref={true}>
+            <span className="cursor-pointer">Authentication Results</span>
+          </Link>
+          <Link href="https://stackoverflow.com/" passHref={true}>
+            <span className="cursor-pointer">Legit Check</span>
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }

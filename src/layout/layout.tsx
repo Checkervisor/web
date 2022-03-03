@@ -10,15 +10,17 @@ type LayoutProps = {
 }
 
 const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
-  <div>
+  <div className="relative min-h-screen">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <Header />
-    {children}
-    <Footer />
+    <div className="max-w-2xl mx-auto">
+      <Header />
+      {children}
+      <Footer />
+    </div>
   </div>
 )
 export default Layout
