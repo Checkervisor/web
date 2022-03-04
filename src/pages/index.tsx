@@ -3,7 +3,7 @@ import TitleSection from 'components/title-section'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="font-metropolis">
       <TitleSection />
     </div>
   )

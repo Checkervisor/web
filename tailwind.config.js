@@ -6,10 +6,9 @@ module.exports = {
     './src/layout/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        metropolis: ['metropolis'],
-      },
+    fontFamily: {
+      regular: ['Metropolis'],
+      sans: ['PT Sans', 'Arial', 'Verdana', 'Helvetica', 'sans-serif'],
     },
     screens: {
       // => @media (min-width: 360px) { ... }
@@ -160,14 +159,6 @@ module.exports = {
     container: {
       center: true,
       padding: '1rem',
-    },
-    fontFamily: {
-      roboto: ['Roboto', 'sans-serif'],
-      serif: ['Lora', 'serif'],
-      system: ['Georgia', 'Times New Roman', 'Times', 'serif'],
-      sans: ['PT Sans', 'Arial', 'Verdana', 'Helvetica', 'sans-serif'],
-      chronicle: ['Chronicle Display', 'serif'],
-      'sans-default': ['PT Sans'],
     },
     fontSize: {
       xxs: '0.625rem', // 10px
