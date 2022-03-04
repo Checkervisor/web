@@ -1,0 +1,7 @@
+/* reusable style */
+.statistic-box {
+  @apply relative bg-white py-6 shadow-lg rounded-3xl self-center;
+}
+.statistic-label {
+  @apply absolute text-white rounded-full px-5 py-2 text-lg;
+}

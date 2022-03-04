@@ -1,3 +1,21 @@
+@import './reusable.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'metropolis';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/metropolis/Metropolis-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'metropolis';
+  font-style: bold;
+  font-weight: 600;
+  src: local(''),
+    url('/fonts/metropolis/Metropolis-Bold.otf') format('opentype');
+}

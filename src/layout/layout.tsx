@@ -16,7 +16,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto font-sans">
       <Header />
       {children}
       <Footer />

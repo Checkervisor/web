@@ -1,11 +1,12 @@
 import type { NextPage } from 'next'
+import TitleSection from 'components/title-section'
 
-const LandingPage: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <div>
-      <h2 className="text-red-500 text-xl">Content</h2>
+      <TitleSection />
     </div>
   )
 }
 
-export default LandingPage
+export default Home

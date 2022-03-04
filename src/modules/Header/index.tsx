@@ -5,10 +5,10 @@ import React from 'react'
 const index = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-row gap-x-44 items-center text-xl">
+      <div className="flex flex-row gap-x-44 items-center text-xl font-semibold">
         <Image
           alt="checkervisor-logo"
-          src="/assets/checkervisor-logo.png"
+          src="/assets/checkervisor-header-logo.png"
           width={198}
           height={198}
         />
