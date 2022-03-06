@@ -7,8 +7,11 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      regular: ['Metropolis'],
       sans: ['PT Sans', 'Arial', 'Verdana', 'Helvetica', 'sans-serif'],
+      arial: ['Arial'],
+      roboto: ['Roboto', 'sans-serif'],
+      serif: ['Lora', 'serif'],
+      system: ['Georgia', 'Times New Roman', 'Times', 'serif'],
     },
     screens: {
       // => @media (min-width: 360px) { ... }

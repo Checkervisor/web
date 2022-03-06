@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
 import TitleSection from 'components/title-section'
+import Quality from 'components/quality'
 
 const Home: NextPage = () => {
   return (
-    <div className="font-metropolis">
+    <div className="flex flex-col gap-y-37 font-arial">
       <TitleSection />
+      <Quality />
     </div>
   )
 }
