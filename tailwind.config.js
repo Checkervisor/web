@@ -6,6 +6,15 @@ module.exports = {
     './src/layout/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    extend: {
+      backgroundImage: () => ({
+        'legitcheck-bg': "url('/assets/background/bg-image-shoe.png')",
+        'footer-bg': "url('/assets/background/bg-image-footer.png')",
+      }),
+      margin: {
+        '-half-screen': '-50vw',
+      },
+    },
     fontFamily: {
       sans: ['PT Sans', 'Arial', 'Verdana', 'Helvetica', 'sans-serif'],
       arial: ['Arial'],
