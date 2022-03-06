@@ -5,7 +5,7 @@ import React from 'react'
 const index = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-row gap-x-44 items-center text-xl font-semibold">
+      <div className="flex flex-row gap-x-44 items-center text-xl font-semibold justify-between">
         <Image
           alt="checkervisor-logo"
           src="/assets/checkervisor-header-logo.png"
