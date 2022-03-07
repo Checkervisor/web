@@ -15,6 +15,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <div className="max-w-2xl mx-auto">
       <Header />
