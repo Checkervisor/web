@@ -4,8 +4,8 @@ import React from 'react'
 const index = () => {
   return (
     <div className="flex flex-col gap-y-5 text-center">
-      <p className="text-6xl font-bold">Quality</p>
-      <p className="text-4xl">We provide professional and high-quality customer services</p>
+      <p className="title-text">Quality</p>
+      <p className="subtitle-text">We provide professional and high-quality customer services</p>
       {/* quality ilustration */}
       <div className="grid grid-cols-3 gap-x-20 mt-5">
         {/* quality 1 */}
