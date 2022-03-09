@@ -33,10 +33,10 @@ const index = () => {
           <p className="subtitle-text">Our recent Legit Checks</p>
         </div>
         {/* carousel slider */}
-        <div className="grid grid-flow-col gap-x-13">
-          <Image alt="legitcheck-1" src="/assets/recent-legitcheck/1.png" width={350} height={350} />
-          <Image alt="legitcheck-2" src="/assets/recent-legitcheck/2.png" width={700} height={700} />
-          <Image alt="legitcheck-3" src="/assets/recent-legitcheck/3.png" width={350} height={350} />
+        <div className="grid grid-cols-3 gap-x-13">
+          <Image alt="legitcheck-1" src="/assets/recent-legitcheck/1.png" width={350} height={350} layout="fixed" />
+          <Image alt="legitcheck-2" src="/assets/recent-legitcheck/2.png" width={350} height={350} layout="fixed" />
+          <Image alt="legitcheck-3" src="/assets/recent-legitcheck/3.png" width={350} height={350} layout="fixed" />
         </div>
       </div>
     </div>

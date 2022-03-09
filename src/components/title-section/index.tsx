@@ -16,12 +16,12 @@ const index = () => {
             We ensure you the most
             <span className="text-greenCV"> Accurate Result</span>
           </p>
-          <button className="rounded-full bg-greenCV px-5 py-2 w-fit text-white font-semibold mt-2 shadow-md">
-            Start Legit Check
-          </button>
+          <button className="rounded-full bg-greenCV px-5 py-2 w-fit text-white font-semibold mt-2 shadow-md">Start Legit Check</button>
         </div>
         {/* title image */}
-        <Image alt="checkervisor" src="/assets/title/jordan-shoe.png" width={450} height={450} />
+        <div style={{ width: '450px', height: '450px' }} className="relative">
+          <Image alt="checkervisor" src="/assets/title/jordan-shoe.png" layout="fill" objectFit="contain" />
+        </div>
       </div>
 
       {/* statistic section */}
