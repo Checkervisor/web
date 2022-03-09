@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import TitleSection from 'components/title-section'
 import Quality from 'components/quality'
 import Legitcheck from 'components/legit-check'
+import AuthResult from 'components/auth-result'
+import BottomBanner from 'components/bottom-banner'
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +11,8 @@ const Home: NextPage = () => {
       <TitleSection />
       <Quality />
       <Legitcheck />
+      <AuthResult />
+      <BottomBanner />
     </div>
   )
 }

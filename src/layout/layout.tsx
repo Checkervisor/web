@@ -20,8 +20,8 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
     <div className="max-w-2xl mx-auto">
       <Header />
       {children}
-      <Footer />
     </div>
+    <Footer />
   </div>
 )
 export default Layout
