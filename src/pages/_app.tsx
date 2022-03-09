@@ -4,7 +4,7 @@ import Layout from 'layout/layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout title="Landing Page">
+    <Layout title="Checkervisor">
       <Component {...pageProps} />
     </Layout>
   )

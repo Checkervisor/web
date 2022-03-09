@@ -14,10 +14,7 @@ const index = () => {
           <p className="text-3xl font-semibold ">
             <span className="text-greenCV">Professional Legit </span>Checker
           </p>
-          <p className="text-2xl">
-            Checkervisor team is build by the expert and high experiences in sneakers &amp;
-            streetwear
-          </p>
+          <p className="text-2xl">Checkervisor team is build by the expert and high experiences in sneakers &amp; streetwear</p>
         </div>
         {/* quality 2 */}
         <div className="flex flex-col gap-y-5 leading-8">
@@ -28,9 +25,7 @@ const index = () => {
             </span>
             &amp; Well Built System
           </p>
-          <p className="text-2xl">
-            Your item was legit checked in order by passing our standarization of authenticity
-          </p>
+          <p className="text-2xl">Your item was legit checked in order by passing our standarization of authenticity</p>
         </div>
         {/* quality 3 */}
         <div className="flex flex-col gap-y-5 leading-8">
@@ -41,9 +36,7 @@ const index = () => {
             </span>
             Education &amp; Explanation
           </p>
-          <p className="text-2xl">
-            Your authentication included 100% TrustWorthy from the expert now
-          </p>
+          <p className="text-2xl">Your authentication included 100% TrustWorthy from the expert now</p>
         </div>
       </div>
     </div>
