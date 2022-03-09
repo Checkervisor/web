@@ -50,6 +50,7 @@ module.exports = {
       /* Checkervisor theme (CV) */
       greenCV: '#32B768',
       redCV: '#DB3022',
+      greyCV: '#37474F',
 
       blue: {
         10: '#E1F0FF',
