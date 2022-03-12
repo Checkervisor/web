@@ -1,11 +1,20 @@
 import type { NextPage } from 'next'
+import TitleSection from 'components/title-section'
+import Quality from 'components/quality'
+import Legitcheck from 'components/legit-check'
+import AuthResult from 'components/auth-result'
+import BottomBanner from 'components/bottom-banner'
 
-const LandingPage: NextPage = () => {
+const Home: NextPage = () => {
   return (
-    <div>
-      <h2 className="text-red-500 text-xl">Content</h2>
+    <div className="flex flex-col gap-y-37 font-arial">
+      <TitleSection />
+      <Quality />
+      <Legitcheck />
+      <AuthResult />
+      <BottomBanner />
     </div>
   )
 }
 
-export default LandingPage
+export default Home
