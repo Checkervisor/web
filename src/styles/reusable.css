@@ -1,10 +1,10 @@
 /* reusable style */
 
 .title-text {
-  @apply text-6xl font-bold;
+  @apply text-5.5xl font-bold;
 }
 .subtitle-text {
-  @apply text-4xl font-thin;
+  @apply text-3xl font-normal;
 }
 
 /* section 1 */
